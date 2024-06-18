@@ -1,0 +1,61 @@
+body
+{
+    margin: 0px;
+}
+*
+{
+    box-sizing: border-box;
+}
+.image
+{
+    height: 40vh;
+    width: 100%;
+    
+}
+.heading
+{
+    font-size: 60px;
+    color:rgb(21, 21, 125)
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    padding-bottom: 10px;
+}
+.input-num
+{
+    height: 40px;
+    width: 280px;
+}
+.para
+{
+    font-size: 20px;
+    color: rgb(3, 3, 90);
+}
+.button
+{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background-color: rgb(16, 16, 111);
+}
+.errormessage
+{
+    color: red;
+}
+.output
+{
+    height: 40px;
+    width: 280px;
+    background-color: rgba(254, 246, 246, 0.952);
+    border: solid 1px;
+    padding-top: 7px;
+    padding-left: 3px;
+}

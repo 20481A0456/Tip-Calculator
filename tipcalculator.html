@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tipcalculator.css"/>
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/tip-calculator-img.png"/>
+        <h1 class="heading">Tip Calculator</h1>
+        <div>
+            <p class="para">BILL AMOUNT</p>
+            <input type="text" class="input-num" id="ba"/>
+            <p class="para">PERCENTAGE TIP</p>
+            <input type="text" class="input-num" id="pt"/>
+            <p class="para">TIP AMOUNT</p>
+            <p class="output" id="ta"></p>
+            <p class="para">TOTAL</p>
+            <p class="output" id="total"></p>
+        </div>
+        <button class="button" onclick="calc()">CALCULATE</button>
+        <P id="message" class="errormessage"></P>
+    </div>
+    <script src="tipcalculator.js"></script>
+</body>
+</html>
